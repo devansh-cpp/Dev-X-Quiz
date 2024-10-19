@@ -47,7 +47,7 @@ const mockTestData = [
         imageUrl: 'https://images.credly.com/images/e4e5214a-e9f3-414c-9ebc-d10467a92816/Data_Structures_and_Algorithms.png',
         subtitle: "Mock",
         title: "Data Structure Test",
-        category: "/front-end-developer-test",
+        category: "DSA",
         buttonText: "Take Test",
         bgColor: "bg-red-500",
     },
