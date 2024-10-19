@@ -1,0 +1,416 @@
+{
+  "categories": {
+    "CPP": [
+      {
+        "id":1,
+        "question": "Which of the following is the correct syntax to declare a pointer?",
+        "options": ["int *ptr;", "int &ptr;", "ptr int;", "int ptr;"],
+        "answer": "int *ptr;"
+      },
+      {
+        "id":2,
+        "question": "What is the size of an int variable in C++?",
+        "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on the system"],
+        "answer": "Depends on the system"
+      },
+      {
+        "id":3,
+        "question": "Which concept means hiding internal details of an object?",
+        "options": ["Polymorphism", "Inheritance", "Encapsulation", "Abstraction"],
+        "answer": "Encapsulation"
+      },
+      {
+        "id":4,
+        "question": "What is a constructor in C++?",
+        "options": [
+          "A method used to initialize objects",
+          "A method used to destroy objects",
+          "A method used to copy objects",
+          "A method used to inherit objects"
+        ],
+        "answer": "A method used to initialize objects"
+      },
+      {
+        "id":5,
+        "question": "Which of the following loops in C++ is entry-controlled?",
+        "options": ["for loop", "while loop", "do-while loop", "switch"],
+        "answer": "for loop"
+      },
+      {
+        "id":6,
+        "question": "Which operator is used to access members of a class using a pointer?",
+        "options": ["*", "->", ".", "&"],
+        "answer": "->"
+      },
+      {
+        "id":7,
+        "question": "Which of the following is not a keyword in C++?",
+        "options": ["default", "static", "register", "jump"],
+        "answer": "jump"
+      },
+      {
+        "id":8,
+        "question": "What does the 'new' keyword do in C++?",
+        "options": [
+          "Creates a new variable",
+          "Allocates memory dynamically",
+          "Deletes an object",
+          "Returns the size of a variable"
+        ],
+        "answer": "Allocates memory dynamically"
+      },
+      {
+        "id":9,
+        "question": "What is the default return type of a function in C++ if not specified?",
+        "options": ["int", "void", "float", "char"],
+        "answer": "int"
+      },
+      {
+        "id":10,
+        "question": "Which of the following is a correct way to define a constant in C++?",
+        "options": ["#define PI 3.14", "const float PI = 3.14;", "constant PI = 3.14;", "float PI = 3.14;"],
+        "answer": "const float PI = 3.14;"
+      } 
+    ],
+    "DSA": [
+      {
+        "id":1,
+        "question": "What is the best case time complexity of bubble sort?",
+        "options": ["O(n^2)", "O(n)", "O(log n)", "O(n log n)"],
+        "answer": "O(n)"
+      },
+      {
+        "id":2,
+        "question": "Which data structure follows the FIFO principle?",
+        "options": ["Stack", "Queue", "Tree", "Graph"],
+        "answer": "Queue"
+      },
+      {
+        "id":3,
+        "question": "Which of the following is not a linear data structure?",
+        "options": ["Array", "Linked List", "Binary Tree", "Queue"],
+        "answer": "Binary Tree"
+      },
+      {
+        "id":4,
+        "question": "What is the time complexity of searching in a binary search tree?",
+        "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+        "answer": "O(log n)"
+      },
+      {
+        "id":5,
+        "question": "Which sorting algorithm is known for having a stable sorting method?",
+        "options": ["Quick Sort", "Merge Sort", "Heap Sort", "Selection Sort"],
+        "answer": "Merge Sort"
+      },
+      {
+        "id":6,
+        "question": "Which data structure uses LIFO (Last In, First Out)?",
+        "options": ["Stack", "Queue", "Tree", "Graph"],
+        "answer": "Stack"
+      },
+      {
+        "id":7,
+        "question": "What is the worst-case time complexity of Quick Sort?",
+        "options": ["O(n^2)", "O(n)", "O(log n)", "O(n log n)"],
+        "answer": "O(n^2)"
+      },
+      {
+        "id":8,
+        "question": "Which algorithm technique uses divide and conquer?",
+        "options": ["Merge Sort", "Bubble Sort", "Insertion Sort", "Selection Sort"],
+        "answer": "Merge Sort"
+      },
+      {
+        "id":9,
+        "question": "Which data structure is used to implement recursion?",
+        "options": ["Queue", "Stack", "Array", "Linked List"],
+        "answer": "Stack"
+      },
+      {
+        "id":10,
+        "question": "Which traversal method is used to print nodes in a binary tree in sorted order?",
+        "options": ["Pre-order", "In-order", "Post-order", "Level-order"],
+        "answer": "In-order"
+      },
+      {
+        "id":11,
+        "question": "What is the minimum number of edges in a connected graph with n vertices?",
+        "options": ["n", "n-1", "n+1", "2n"],
+        "answer": "n-1"
+      },
+      {
+        "id":12,
+        "question": "Which data structure is used in breadth-first search?",
+        "options": ["Stack", "Queue", "Heap", "Graph"],
+        "answer": "Queue"
+      },
+      {
+        "id":13,
+        "question": "What is the time complexity to access an element from an array by index?",
+        "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+        "answer": "O(1)"
+      },
+      {
+        "id":14,
+        "question": "Which of the following is a non-linear data structure?",
+        "options": ["Stack", "Array", "Queue", "Graph"],
+        "answer": "Graph"
+      },
+      {
+        "id":15,
+        "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+        "options": ["Kruskal's Algorithm", "Prim's Algorithm", "Dijkstra's Algorithm", "Bellman-Ford Algorithm"],
+        "answer": "Dijkstra's Algorithm"
+      }
+    ],
+    "ReactJS": [
+      {
+        "id": 1,
+        "question": "What is React?",
+        "options": ["A JavaScript library", "A programming language", "A CSS framework", "A database"],
+        "answer": "A JavaScript library"
+      },
+      {
+        "id": 2,
+        "question": "Which method is used to update the state in React?",
+        "options": ["this.updateState", "this.setState", "this.changeState", "this.modifyState"],
+        "answer": "this.setState"
+      },
+      {
+        "id": 3,
+        "question": "What are components in React?",
+        "options": ["Functions that return HTML", "CSS files", "JavaScript objects", "Databases"],
+        "answer": "Functions that return HTML"
+      },
+      {
+        "id": 4,
+        "question": "What is JSX?",
+        "options": ["JavaScript XML", "JavaScript and XML", "A database query language", "None of the above"],
+        "answer": "JavaScript XML"
+      },
+      {
+        "id": 5,
+        "question": "Which hook is used to manage state in functional components?",
+        "options": ["useState", "useEffect", "useReducer", "useContext"],
+        "answer": "useState"
+      },
+      {
+        "id": 6,
+        "question": "What is the purpose of keys in React?",
+        "options": ["To uniquely identify elements", "To define CSS styles", "To create components", "To store data"],
+        "answer": "To uniquely identify elements"
+      },
+      {
+        "id": 7,
+        "question": "What does the useEffect hook do?",
+        "options": ["Manages component state", "Performs side effects", "Renders UI", "None of the above"],
+        "answer": "Performs side effects"
+      },
+      {
+        "id": 8,
+        "question": "What is the virtual DOM?",
+        "options": ["A copy of the real DOM", "A data structure", "A framework", "None of the above"],
+        "answer": "A copy of the real DOM"
+      },
+      {
+        "id": 9,
+        "question": "Which of the following is a lifecycle method in class components?",
+        "options": ["componentDidMount", "useEffect", "useState", "render"],
+        "answer": "componentDidMount"
+      },
+      {
+        "id": 10,
+        "question": "What is Redux?",
+        "options": ["A state management library", "A routing library", "A styling framework", "A database"],
+        "answer": "A state management library"
+      }
+    ],
+    "DBMS": [
+      {
+        "id": 1,
+        "question": "What does DBMS stand for?",
+        "options": ["Database Management System", "Data Binary Management System", "Database Machine System", "Data Management System"],
+        "answer": "Database Management System"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is a type of DBMS?",
+        "options": ["Hierarchical", "Relational", "Network", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "id": 3,
+        "question": "What is SQL?",
+        "options": ["Structured Query Language", "Simple Query Language", "Sequential Query Language", "None of the above"],
+        "answer": "Structured Query Language"
+      },
+      {
+        "id": 4,
+        "question": "Which command is used to retrieve data from a database?",
+        "options": ["SELECT", "GET", "FETCH", "RETRIEVE"],
+        "answer": "SELECT"
+      },
+      {
+        "id": 5,
+        "question": "What is a primary key?",
+        "options": ["A unique identifier for a record", "A type of foreign key", "A data type", "None of the above"],
+        "answer": "A unique identifier for a record"
+      },
+      {
+        "id": 6,
+        "question": "What does normalization do?",
+        "options": ["Reduces redundancy", "Increases redundancy", "Decreases security", "None of the above"],
+        "answer": "Reduces redundancy"
+      },
+      {
+        "id": 7,
+        "question": "What is a foreign key?",
+        "options": ["A primary key in another table", "A unique key", "A field in a table", "None of the above"],
+        "answer": "A primary key in another table"
+      },
+      {
+        "id": 8,
+        "question": "Which type of join returns all records from both tables?",
+        "options": ["Inner Join", "Left Join", "Right Join", "Full Join"],
+        "answer": "Full Join"
+      },
+      {
+        "id": 9,
+        "question": "What is a database schema?",
+        "options": ["Structure of a database", "A query", "A command", "None of the above"],
+        "answer": "Structure of a database"
+      },
+      {
+        "id": 10,
+        "question": "Which of the following is not a database model?",
+        "options": ["Hierarchical", "Relational", "Object-oriented", "Static"],
+        "answer": "Static"
+      }
+    ],
+    "OS": [
+      {
+        "id": 1,
+        "question": "What is an operating system?",
+        "options": ["Software that manages hardware resources", "Hardware that manages software", "A programming language", "None of the above"],
+        "answer": "Software that manages hardware resources"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is a function of an operating system?",
+        "options": ["Process management", "Memory management", "File management", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "id": 3,
+        "question": "What is a kernel?",
+        "options": ["Core component of an OS", "User interface", "Application software", "None of the above"],
+        "answer": "Core component of an OS"
+      },
+      {
+        "id": 4,
+        "question": "What is multitasking?",
+        "options": ["Running multiple applications simultaneously", "Single application running", "Sequential task execution", "None of the above"],
+        "answer": "Running multiple applications simultaneously"
+      },
+      {
+        "id": 5,
+        "question": "What is a process?",
+        "options": ["An executing program", "A program on disk", "A file", "None of the above"],
+        "answer": "An executing program"
+      },
+      {
+        "id": 6,
+        "question": "What is a thread?",
+        "options": ["Lightweight process", "Heavyweight process", "A type of application", "None of the above"],
+        "answer": "Lightweight process"
+      },
+      {
+        "id": 7,
+        "question": "Which of the following is not an OS?",
+        "options": ["Windows", "Linux", "MacOS", "Python"],
+        "answer": "Python"
+      },
+      {
+        "id": 8,
+        "question": "What is virtual memory?",
+        "options": ["Memory that uses disk space", "Physical memory", "Cache memory", "None of the above"],
+        "answer": "Memory that uses disk space"
+      },
+      {
+        "id": 9,
+        "question": "What does file system management do?",
+        "options": ["Organizes files on a disk", "Deletes files", "Creates files", "None of the above"],
+        "answer": "Organizes files on a disk"
+      },
+      {
+        "id": 10,
+        "question": "Which of the following is a type of operating system?",
+        "options": ["Batch OS", "Real-time OS", "Time-sharing OS", "All of the above"],
+        "answer": "All of the above"
+      }
+    ],
+    "JavaScript": [
+      {
+        "id": 1,
+        "question": "What is the purpose of JavaScript?",
+        "options": ["To style web pages", "To create server-side applications", "To add interactivity to web pages", "To manage databases"],
+        "answer": "To add interactivity to web pages"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is a JavaScript data type?",
+        "options": ["String", "Number", "Boolean", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "id": 3,
+        "question": "What does '=== ' mean in JavaScript?",
+        "options": ["Strict equality", "Loose equality", "Not equal", "Greater than"],
+        "answer": "Strict equality"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following is a JavaScript framework?",
+        "options": ["React", "Django", "Flask", "Ruby on Rails"],
+        "answer": "React"
+      },
+      {
+        "id": 5,
+        "question": "What is a closure in JavaScript?",
+        "options": ["A function that references its outer scope", "A type of loop", "An object", "None of the above"],
+        "answer": "A function that references its outer scope"
+      },
+      {
+        "id": 6,
+        "question": "Which method is used to convert a string to a number in JavaScript?",
+        "options": ["parseInt()", "parseFloat()", "Number()", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "id": 7,
+        "question": "What is an event in JavaScript?",
+        "options": ["A user interaction", "A type of function", "A variable", "None of the above"],
+        "answer": "A user interaction"
+      },
+      {
+        "id": 8,
+        "question": "Which statement is used to stop a loop in JavaScript?",
+        "options": ["continue", "break", "stop", "exit"],
+        "answer": "break"
+      },
+      {
+        "id": 9,
+        "question": "What is the purpose of the 'this' keyword in JavaScript?",
+        "options": ["Refers to the global object", "Refers to the current function context", "Refers to an object property", "None of the above"],
+        "answer": "Refers to the current function context"
+      },
+      {
+        "id": 10,
+        "question": "What does AJAX stand for?",
+        "options": ["Asynchronous JavaScript and XML", "Asynchronous Java and XML", "Advanced JavaScript and XML", "None of the above"],
+        "answer": "Asynchronous JavaScript and XML"
+      }
+    ]
+  }
+}
